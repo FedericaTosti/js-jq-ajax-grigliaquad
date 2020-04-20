@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #3281a8;
+}
+
+.griglia{
+  width: 450px;
+  height: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.square {
+  border:  1px solid black;
+  width: calc(100% / 6);
+  height: calc(100% / 6);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.green{
+  background-color: green;
+}
+
+.yellow{
+  background-color: yellow;
+}
